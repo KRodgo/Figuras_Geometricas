@@ -11,4 +11,4 @@ before_script:
 
 script: 
    - python TestArea.py
-   - coverage --branch TestArea.py
+   - coverage run --branch TestArea.py
